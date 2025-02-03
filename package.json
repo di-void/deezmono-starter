@@ -1,0 +1,16 @@
+{
+  "name": "acme",
+  "version": "1.0.0",
+  "scripts": {
+    "start:server": "pnpm --filter @acme/server start",
+    "build:server": "turbo run build --filter=@acme/server",
+    "test": "foo"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "tsup": "^8.3.6",
+    "turbo": "^2.3.0"
+  },
+  "packageManager": "pnpm@9.13.2"
+}
