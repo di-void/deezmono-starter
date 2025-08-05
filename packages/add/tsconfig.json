@@ -1,3 +1,5 @@
+// https://github.com/tsconfig/bases/blob/main/bases/node-lts.json
+
 {
   "compilerOptions": {
     "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
