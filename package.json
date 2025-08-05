@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start:server": "pnpm --filter @acme/server start",
-    "build:server": "turbo run build --filter=@acme/server",
-    "test": "foo"
+    "build:server": "turbo run build --filter=@acme/server"
   },
   "keywords": [],
   "author": "",
