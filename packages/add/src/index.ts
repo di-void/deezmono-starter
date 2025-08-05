@@ -1,10 +1,6 @@
-import { foo } from "./utils";
+import { times } from "./utils";
 
-export function add(a: number, b: number) {
-  console.log("Foo", foo);
-  return a + b;
-}
-
-export function bar() {
-  return "some battles";
+export function addTimes(a: number, b: number) {
+  const sum = a + b;
+  return sum + times(a, b);
 }

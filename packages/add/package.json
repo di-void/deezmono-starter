@@ -7,16 +7,18 @@
       "types": "./src/index.ts",
       "default": "./dist/index.js"
     },
-    "./lib": {
-      "types": "./src/lib.ts",
-      "default": "./dist/lib.js"
+    "./*": {
+      "types": "./src/*.ts",
+      "default": "./dist/*.js"
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.0"
+  }
 }
